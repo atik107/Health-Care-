@@ -9,7 +9,7 @@ Developed as part of the **System Development Project** under the supervision of
 
 
 <p align="center">
-    <img src="App_ss/ss1.jpeg" alt="Screenshot 1" height = "600" width="300">
+    <img src="App_ss/ss1.jpeg" alt="Screenshot 1" height = "400" width="250">
     <img src="App_ss/ss2.jpeg" alt="Screenshot 2" height = "600" width="300">
     <img src="App_ss/ss3.jpeg" alt="Screenshot 3" height = "600" width="300">
 </p>
