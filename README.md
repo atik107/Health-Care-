@@ -1,8 +1,7 @@
 
 # CardioCare - An Android Application for Healthcare Management
 
-![App Screenshot](/App_ss/ss7.jpeg)
-<img src="App_ss/ss7.jpeg" alt="App Screenshot" width="600" height="400">
+<img src="App_ss/ss7.jpeg" alt="App Screenshot" width="300" height="600">
 ## Overview
 CardioCare is an advanced Android application designed to improve healthcare accessibility and management. The app bridges the gap between patients and doctors by offering telemedicine services, appointment scheduling, and AI-driven heart disease predictions.
 
