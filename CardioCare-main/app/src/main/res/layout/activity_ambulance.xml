@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AmbulanceActivity">
+
+    <!-- EditText -->
+    <TextView
+        android:id="@+id/editTextBeforeImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingTop="20dp"
+        android:text="Ambulance Service"
+        android:textSize="28dp"
+        android:textColor="#1974BD"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Image View -->
+    <ImageView
+        android:id="@+id/ambulance_pic"
+        android:layout_width="400dp"
+        android:layout_height="280dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/ambulence_pic_1"
+        app:layout_constraintTop_toBottomOf="@id/editTextBeforeImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="100dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/ambulance_pic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

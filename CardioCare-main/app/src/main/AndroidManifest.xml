@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/mainicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mainicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppointActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".AppointActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FAQActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AmbulanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HealthInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OptimalWeightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmAmbActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FullArticleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArticleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MedCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EncyclopediaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BMIActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewNoteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddPresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".EditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PredictActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".InfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StartedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"> <!-- Set exported to true -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".user_login"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

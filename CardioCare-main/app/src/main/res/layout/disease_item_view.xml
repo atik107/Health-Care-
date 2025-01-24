@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/medicineTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicine Name"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/medicineelement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/medicineTitle"
+        android:textSize="16dp"
+        android:text="Element"/>
+
+    <TextView
+        android:id="@+id/medicineused"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/medicineelement"
+        android:textSize="16dp"
+        android:text="Used for"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/medicineused"
+        android:layout_marginTop="30dp"
+        android:background="#CDCDCD"
+        />
+
+</RelativeLayout>

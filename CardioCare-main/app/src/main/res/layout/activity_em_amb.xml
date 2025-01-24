@@ -1,0 +1,64 @@
+<!-- em_amb_activity.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="#e6e6e6">
+
+    <ImageView
+        android:id="@+id/locationimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/location"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/locationimg"
+        android:text="Location will be displayed here"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/getLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Current Location"
+        android:layout_below="@id/locationTextView"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/generateLinkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/getLocationButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Send SMS for Ambulance" />
+
+    <TextView
+        android:id="@+id/orTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/generateLinkButton"
+        android:layout_marginTop="20dp"
+        android:text="-or-"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Call for Ambulance" />
+
+
+</RelativeLayout>

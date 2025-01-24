@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArticleActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Research Article 1"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/art"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="20dp"
+            android:background="#EDEDED"
+            android:padding="10dp"
+            android:text="Heart disease refers to a range of conditions that affect the heart. It is also known as cardiovascular disease and includes conditions such as coronary artery disease, heart failure, valvular heart disease, and various other heart-related conditions. The leading cause of heart disease is the buildup of fatty deposits (plaque) in the arteries, which can lead to reduced blood flow to the heart muscle."
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</ScrollView>

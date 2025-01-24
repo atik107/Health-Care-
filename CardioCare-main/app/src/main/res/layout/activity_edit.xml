@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_update_profile.xml -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <Button
+        android:id="@+id/chooseImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Choose Image" />
+
+    <EditText
+        android:id="@+id/editBlood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Blood Type"/>
+
+    <EditText
+        android:id="@+id/editage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editBlood"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"
+        android:hint="Age"/>
+
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editage"
+            android:layout_marginTop="16dp"
+            android:text="Prev Surgery: "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="50dp"
+            android:layout_below="@id/questionTextView"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/option2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+    <EditText
+        android:id="@+id/editgender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup1"
+        android:layout_marginTop="16dp"
+        android:hint="Gender"/>
+
+    <EditText
+        android:id="@+id/editphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editgender"
+        android:layout_marginTop="16dp"
+        android:hint="Phone no."/>
+
+    <EditText
+        android:id="@+id/editAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editphone"
+        android:layout_marginTop="16dp"
+        android:hint="Address"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chooseImageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/empty"
+        android:minWidth="250dp"
+        android:minHeight="250dp"
+        android:maxWidth="400dp"
+        android:maxHeight="500dp" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Update"/>
+</RelativeLayout>
+</ScrollView>

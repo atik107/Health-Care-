@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:text="Optimal Weight Calculator"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503">
+
+        <EditText
+            android:id="@+id/input_feet"
+            android:layout_width="0dp"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Height (Feet)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/input_inch"
+            android:layout_width="0dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Height (Inch)"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/showresult"
+        android:layout_width="320dp"
+        android:layout_height="142dp"
+        android:background="@color/black"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="288dp"
+        android:layout_height="35dp"
+        android:text="What is your height?"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.408" />
+
+
+
+    <Button
+        android:id="@+id/buttonBMI"
+        android:layout_width="193dp"
+        android:layout_height="46dp"
+        android:backgroundTint="@color/black"
+        android:text="Calculate Weight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
+
+    <TextView
+        android:id="@+id/qtext1"
+        android:layout_width="288dp"
+        android:layout_height="35dp"
+        android:text="What is your gender?"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qtext1"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/qtext1"
+        tools:layout_editor_absoluteX="0dp"
+        android:paddingLeft="30dp">
+
+        <!-- RadioButtons for Question 1 -->
+        <RadioButton
+            android:id="@+id/option1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"/>
+
+        <RadioButton
+            android:id="@+id/option2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

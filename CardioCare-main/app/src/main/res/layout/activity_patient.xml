@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img2">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            app:cardCornerRadius="10dp"
+            android:layout_width="350dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="92dp"
+            android:backgroundTint="#CFCFCF"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:text="Find Patient"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <SearchView
+                    android:id="@+id/searchView"
+                    android:layout_width="300dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/custom_input"
+                    android:iconifiedByDefault="false"
+                    android:queryHint="Search by Patient Name"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:inputType="text" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_marginTop="24dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

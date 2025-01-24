@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Your existing LinearLayout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- TextViews and Button inside your LinearLayout -->
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:text="Patient Name" />
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/textViewNumber"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:text="Gender" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>

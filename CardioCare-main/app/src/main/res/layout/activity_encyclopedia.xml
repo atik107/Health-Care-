@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <!-- First CardView -->
+    <TextView
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:text="Encyclopedia"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="16dp"
+        app:cardUseCompatPadding="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="#9CE3FF">
+
+            <TextView
+                android:id="@+id/medicine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medicine"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <!-- Second CardView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="16dp"
+        app:cardUseCompatPadding="true">
+
+
+
+        <!-- Content of your CardView -->
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="#9CE3FF">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disease"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <!-- Add your content here -->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Third CardView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="16dp"
+        app:cardUseCompatPadding="true">
+
+        <!-- Content of your CardView -->
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="#9CE3FF">
+
+            <TextView
+                android:id="@+id/Disease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Articles"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <!-- Add your content here -->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArticleActivity">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heart Disease Overview"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/art1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heart disease, also known as cardiovascular disease, encompasses various conditions affecting the heart's functionality. Conditions include coronary artery disease, arrhythmias, heart failure, and more. Lifestyle changes and medications are key in managing and preventing heart-related issues."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="#EDEDED" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Understanding Coronary Artery Disease (CAD)"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_below="@+id/art1"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/art2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coronary Artery Disease (CAD) involves the narrowing or blockage of coronary arteries, reducing blood flow to the heart. Lifestyle modifications, medications, and interventions like angioplasty are vital in managing CAD and reducing associated risks."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="#EDEDED" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arrhythmias: Understanding Heart Rhythm Disorders"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_below="@+id/art2"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/art3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arrhythmias encompass irregular heart rhythms that affect heart rate and function. They include conditions like tachycardia and bradycardia. Diagnosis involves tests like ECG/EKG, and treatment may involve medications or procedures like ablation."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="#EDEDED" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Understanding Heart Failure"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_below="@+id/art3"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/art4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heart failure occurs when the heart can't pump blood effectively. It leads to symptoms like shortness of breath, fatigue, and fluid buildup. Treatment involves medications, lifestyle changes, and in severe cases, devices like pacemakers."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="#EDEDED" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valvular Heart Disease: Understanding Heart Valve Problems"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_below="@+id/art4"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/art5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valvular heart disease involves problems with one or more heart valves. It affects blood flow and may lead to symptoms like chest pain or shortness of breath. Treatments range from medications to valve repair or replacement."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="#EDEDED" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preventing Heart Disease: Lifestyle and Risk Reduction"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_below="@+id/art5"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/art6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preventing heart disease involves adopting a healthy lifestyle, including a balanced diet, regular exercise, managing stress, avoiding smoking, and controlling conditions like hypertension or diabetes. Regular check-ups are crucial for early detection and prevention."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="#EDEDED" />
+
+    <!-- Add more TextViews and associated content as needed -->
+
+  </RelativeLayout>
+</ScrollView>

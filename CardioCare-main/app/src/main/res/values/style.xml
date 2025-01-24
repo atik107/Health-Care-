@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="editTextStyle2" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <!--        <item name="hintTextColor">@color/hintColor</item>-->
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+        <item name="boxStrokeColor">#03A9F4</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxCornerRadiusBottomEnd">30dp</item>
+        <item name="boxCornerRadiusBottomStart">30dp</item>
+        <item name="boxCornerRadiusTopEnd">30dp</item>
+        <item name="boxCornerRadiusTopStart">30dp</item>
+    </style>
+
+</resources>
