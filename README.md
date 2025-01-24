@@ -52,23 +52,10 @@ Developed as part of the **System Development Project** under the supervision of
 ---
 
 ## Machine Learning Model
-The heart disease prediction feature is powered by a deep learning model trained on the [Kaggle Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset). The model achieved an accuracy of **88%** during testing.
+The heart disease prediction feature is powered by a deep learning model trained on the [Kaggle Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset). The model achieved an accuracy of **97%** during testing.
 
 ![Prediction Result](App%20ss/prediction_result.png)
 
 ---
 
-## Screenshots
-Here are some glimpses of the app's user interface:
 
-1. **Main Menu**  
-   ![Main Menu](App%20ss/main_menu.png)
-
-2. **Doctor Search**  
-   ![Doctor Search](App%20ss/doctor_search.png)
-
-3. **Prediction Result**  
-   ![Prediction Result](App%20ss/prediction_result.png)
-
-4. **Admin Panel**  
-   ![Admin Panel](App%20ss/admin_panel.png)
