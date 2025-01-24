@@ -7,8 +7,21 @@ CardioCare is an advanced Android application designed to improve healthcare acc
 
 Developed as part of the **System Development Project** under the supervision of **Md. Motaleb Hossen Manik**, this project incorporates modern technologies and design principles to deliver an efficient and user-friendly healthcare solution.
 
-<img src="App_ss/ss7.jpeg" alt="App Screenshot" width="300" height="600">
----
+
+<p align="center">
+    <img src="App_ss/ss1.jpeg" alt="Screenshot 1" width="300">
+    <img src="App_ss/ss2.jpeg" alt="Screenshot 2" width="300">
+    <img src="App_ss/ss3.jpeg" alt="Screenshot 3" width="300">
+</p>
+
+<!-- Second Row -->
+<p align="center">
+    <img src="App_ss/ss4.jpeg" alt="Screenshot 4" width="300">
+    <img src="App_ss/ss5.jpeg" alt="Screenshot 5" width="300">
+    <img src="App_ss/ss6.jpeg" alt="Screenshot 6" width="300">
+</p>
+
+
 
 ## Features
 ### Patient Features
