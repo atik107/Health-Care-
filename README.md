@@ -35,6 +35,7 @@ Developed as part of the **System Development Project** under the supervision of
 - **Patient Monitoring:** View patient records and history.
 - **Prescription Management:** Add or edit prescriptions for patients.
 - **Medical Resources:** Access disease and medication details.
+- **AI chatbot:** Used OenAI API for instant QA.
 
 ### Admin Features
 - **System Management:** Add/edit doctors, view patients, and manage ambulance services.
