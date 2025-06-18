@@ -52,4 +52,46 @@ Developed as part of the **System Development Project** under the supervision of
 ---
 
 ## Machine Learning Model
-The heart disease prediction feature is powered by a deep learning model trained on the [Kaggle Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset). The model achieved an accuracy of **97%** during testing.
+
+The is an advanced machine learning-based diagnostic solution built on integrated datasets and enriched with deep learning, ensemble methods, and modern explainability techniques like SHAP and LIME.
+
+---
+
+## 🚀 Features
+
+- ✅ **Preprocessing**: Handles missing values, outlier detection, and normalization.
+- 🔄 **Dataset Integration**: Combines 5 benchmark datasets (Cleveland, Hungarian, Switzerland, VA, Statlog).
+- 🔍 **Class Balancing**: Uses SMOTE for handling class imbalance.
+- 📊 **Feature Engineering**: Feature importance using permutation, SHAP, and LIME.
+- 🧠 **Models**:
+  - XGBoost, LightGBM, CatBoost
+  - Deep Neural Networks (Autoencoder architecture)
+  - Ensemble & Stacking Classifiers
+- 📈 **Model Evaluation**: Accuracy, Precision, Recall, F1-Score, ROC-AUC
+- 🎯 **Explainability**: Visual interpretations using SHAP and LIME
+- 📉 **Learning Curves & Correlation Heatmaps**
+
+---
+
+## 🗂️ Dataset
+
+- **Sources**:
+  - `processed.cleveland.data`
+  - `processed.hungarian.data`
+  - `processed.switzerland.data`
+  - `processed.va.data`
+  - `statlog_space_separated.data`
+
+- **Features**: `age`, `sex`, `cp`, `trestbps`, `chol`, `fbs`, `restecg`, `thalach`, `exang`, `oldpeak`, `slope`, `ca`, `thal`, `num`
+
+- **Target**: `num` (0 = No Heart Disease, 1 = Heart Disease)
+
+---
+
+## 🛠️ Technologies Used
+
+- Python, Pandas, NumPy, Matplotlib, Seaborn, Altair
+- Sklearn, XGBoost, LightGBM, CatBoost
+- TensorFlow / Keras (Neural Network)
+- Imblearn (SMOTE)
+- SHAP, LIME, Permutation Importance
