@@ -16,10 +16,11 @@ Developed as part of the **System Development Project** under the supervision of
 
 <!-- Second Row -->
 <p align="center">
-    <img src="App_ss/ss16.jpeg" alt="Screenshot 4" height = "450" width="250">
-    <img src="App_ss/ss14.jpeg" alt="Screenshot 5" height = "450" width="250">
-    <img src="App_ss/ss15.jpeg" alt="Screenshot 6" height = "450" width="250">
+    <img src="App_ss/ss16.jpeg" alt="Screenshot 4" height="450" width="250" style="border: 2px solid #333; margin: 5px;">
+    <img src="App_ss/ss14.jpeg" alt="Screenshot 5" height="450" width="250" style="border: 2px solid #333; margin: 5px;">
+    <img src="App_ss/ss15.jpeg" alt="Screenshot 6" height="450" width="250" style="border: 2px solid #333; margin: 5px;">
 </p>
+
 
 
 
