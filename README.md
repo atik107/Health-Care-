@@ -15,8 +15,8 @@ Developed as part of the **System Development Project** under the supervision of
 </p>
 
 <!-- Second Row -->
-<!-- Second Row with Bold Borders -->
-<table align="center" cellspacing="10">
+<!-- Second Row with Bold Black Table and Cell Borders -->
+<table align="center" cellspacing="10" style="border: 5px solid black; border-collapse: collapse;">
   <tr>
     <td style="border: 5px solid black; padding: 5px;">
       <img src="App_ss/ss16.jpeg" alt="Screenshot 4" height="450" width="250">
@@ -29,6 +29,7 @@ Developed as part of the **System Development Project** under the supervision of
     </td>
   </tr>
 </table>
+
 
 
 
