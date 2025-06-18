@@ -1,5 +1,5 @@
 
-# CardioCare - An Android Application for Healthcare Management
+# CardioCare - An Android Application for Healthcare Management with ML solution
 
 
 # Overview
