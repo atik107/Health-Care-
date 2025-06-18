@@ -21,7 +21,9 @@ Developed as part of the **System Development Project** under the supervision of
     <img src="App_ss/ss15.jpeg" alt="Screenshot 6" height = "400" width="200">
 </p>
 
-
+<p align="center">
+    <img src="App_ss/system_DFD.svg" alt="Screenshot 4" height = "600" width="800">
+</p>
 
 ## Features
 ### Patient Features
