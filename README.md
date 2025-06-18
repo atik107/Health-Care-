@@ -34,8 +34,24 @@ Developed as part of the **System Development Project** under the supervision of
 </table>
 
 
-
-
+<!-- 3rd Row -->
+<!-- Row with 4 Images in a Bold Black Bordered Table -->
+<table align="center" cellspacing="10" style="border: 5px solid black; border-collapse: collapse;">
+  <tr>
+    <td style="border: 5px solid black; padding: 5px;">
+      <img src="App_ss/ss12.jpeg" alt="Screenshot 1" height="450" width="250">
+    </td>
+    <td style="border: 5px solid black; padding: 5px;">
+      <img src="App_ss/ss9.jpeg" alt="Screenshot 2" height="450" width="250">
+    </td>
+    <td style="border: 5px solid black; padding: 5px;">
+      <img src="App_ss/ss13.jpeg" alt="Screenshot 3" height="450" width="250">
+    </td>
+    <td style="border: 5px solid black; padding: 5px;">
+      <img src="App_ss/ss21.jpeg" alt="Screenshot 4" height="450" width="250">
+    </td>
+  </tr>
+</table>
 
 
 
