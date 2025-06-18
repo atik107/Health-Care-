@@ -15,11 +15,21 @@ Developed as part of the **System Development Project** under the supervision of
 </p>
 
 <!-- Second Row -->
-<p align="center">
-    <img src="App_ss/ss16.jpeg" alt="Screenshot 4" height="450" width="250" style="border: 20px solid black; margin: 5px;">
-    <img src="App_ss/ss14.jpeg" alt="Screenshot 5" height="450" width="250" style="border: 2px solid black; margin: 5px;">
-    <img src="App_ss/ss15.jpeg" alt="Screenshot 6" height="450" width="250" style="border: 2px solid black; margin: 5px;">
-</p>
+<!-- Second Row using Table Cells -->
+<table align="center" cellspacing="10">
+  <tr>
+    <td style="border: 2px solid black; padding: 5px;">
+      <img src="App_ss/ss16.jpeg" alt="Screenshot 4" height="450" width="250">
+    </td>
+    <td style="border: 2px solid black; padding: 5px;">
+      <img src="App_ss/ss14.jpeg" alt="Screenshot 5" height="450" width="250">
+    </td>
+    <td style="border: 2px solid black; padding: 5px;">
+      <img src="App_ss/ss15.jpeg" alt="Screenshot 6" height="450" width="250">
+    </td>
+  </tr>
+</table>
+
 
 
 
